@@ -20,7 +20,7 @@ namespace COMP123_M2020_FinalExam
         
         private void splashformtimer_Tick(object sender, EventArgs e)
         {
-            Program.generatenameform.Show();
+            Program.Generatenameform.Show();
             this.Hide();
             splashformtimer.Enabled = false;
         }

@@ -24,7 +24,7 @@ namespace COMP123_M2020_FinalExam
 
         private void BackButton_Click(object sender, EventArgs e)
         {
-            Character character = Program.character;
+            Character character = Program.Character;
 
             character.Race = this.m_selectedRace;
 
@@ -39,7 +39,7 @@ namespace COMP123_M2020_FinalExam
         {
             RadioButton selectedRace = (RadioButton)sender;
             this.m_selectedRace = selectedRace.Text;
-            Program.character.Race = this.m_selectedRace;
+            Program.Character.Race = this.m_selectedRace;
         }
 
         private void NextButton_Click(object sender, EventArgs e)

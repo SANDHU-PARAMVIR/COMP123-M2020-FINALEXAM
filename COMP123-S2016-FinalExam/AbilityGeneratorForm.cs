@@ -75,7 +75,7 @@ namespace COMP123_M2020_FinalExam
 
         private void GeneratorForm_Load(object sender, EventArgs e)
         {
-            this.m_random = new Random(); // initialize random number object
+            this.m_random = new Random(); 
 
             GenerateAbilities();
 
@@ -155,7 +155,7 @@ namespace COMP123_M2020_FinalExam
 
         private void NextButton_Click(object sender, EventArgs e)
         {
-            Character character = Program.character;
+            Character character = Program.Character;
 
             character.Strength = StrengthTextBox.Text;
             character.Dexterity = DexterityTextBox.Text;
@@ -186,7 +186,7 @@ namespace COMP123_M2020_FinalExam
         private void BackButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Program.generatenameform.Show();
+            Program.Generatenameform.Show();
         }
     }
 }

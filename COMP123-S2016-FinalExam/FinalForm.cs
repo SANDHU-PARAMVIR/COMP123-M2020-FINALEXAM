@@ -42,15 +42,15 @@ namespace COMP123_M2020_FinalExam
         private void FinalForm_Load(object sender, EventArgs e)
         {
            
-            StrengthTextBox.Text = Program.character.Strength;
-            DexterityTextBox.Text = Program.character.Dexterity;
-            ConstitutionTextBox.Text = Program.character.Constitution;
-            IntelligenceTextBox.Text = Program.character.Intelligence;
-            WisdomTextBox.Text = Program.character.Wisdom;
-            CharismaTextBox.Text = Program.character.Charisma;
-            FirstNameTextBox.Text = Program.character.FirstName;
-            LastNameTextBox.Text = Program.character.LastName;
-            RaceTextBox.Text = Program.character.Race;
+            StrengthTextBox.Text = Program.Character.Strength;
+            DexterityTextBox.Text = Program.Character.Dexterity;
+            ConstitutionTextBox.Text = Program.Character.Constitution;
+            IntelligenceTextBox.Text = Program.Character.Intelligence;
+            WisdomTextBox.Text = Program.Character.Wisdom;
+            CharismaTextBox.Text = Program.Character.Charisma;
+            FirstNameTextBox.Text = Program.Character.FirstName;
+            LastNameTextBox.Text = Program.Character.LastName;
+            RaceTextBox.Text = Program.Character.Race;
         }
     }
 }

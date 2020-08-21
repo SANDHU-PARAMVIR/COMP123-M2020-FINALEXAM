@@ -40,8 +40,8 @@ namespace COMP123_M2020_FinalExam
 
         private void NextButton_Click(object sender, EventArgs e)
         {
-            Program.character.FirstName = firstNameTextBox.Text;
-            Program.character.LastName = LastNameTextBox.Text;
+            Program.Character.FirstName = firstNameTextBox.Text;
+            Program.Character.LastName = LastNameTextBox.Text;
 
             AbilityGeneratorForm abilityGeneratorForm = new AbilityGeneratorForm();
 
@@ -49,7 +49,7 @@ namespace COMP123_M2020_FinalExam
             abilityGeneratorForm.Show();
 
             
-            Program.generatenameform.Hide();
+            Program.Generatenameform.Hide();
         }
     }
 }

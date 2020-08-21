@@ -14,13 +14,13 @@ namespace COMP123_M2020_FinalExam
 {
     public static class Program
     {
-        public static Character character = new Character();
-        public static AbilityGeneratorForm abilitygeneratorform;
-        private static AboutBox aboutbox;
-        public static FinalForm finalform;
-        public static GenerateNameForm generatenameform;
-        public static RaceAndClassForm raceandclassform;
-        public static SplashForm splashform;
+        public static Character Character = new Character();
+        public static AbilityGeneratorForm Abilitygeneratorform;
+        private static AboutBox m_aboutbox;
+        public static FinalForm Finalform;
+        public static GenerateNameForm Generatenameform;
+        public static RaceAndClassForm Raceandclassform;
+        public static SplashForm Splashform;
 
         /// <summary>
         /// The main entry point for the application.
@@ -32,14 +32,14 @@ namespace COMP123_M2020_FinalExam
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            splashform = new SplashForm();
-            abilitygeneratorform = new AbilityGeneratorForm();
-            aboutbox = new AboutBox();
-            finalform = new FinalForm();
-            generatenameform = new GenerateNameForm();
-            raceandclassform = new RaceAndClassForm();
+            Splashform = new SplashForm();
+            Abilitygeneratorform = new AbilityGeneratorForm();
+            m_aboutbox = new AboutBox();
+            Finalform = new FinalForm();
+            Generatenameform = new GenerateNameForm();
+            Raceandclassform = new RaceAndClassForm();
 
-            Application.Run(splashform);
+            Application.Run(Splashform);
         }
     }
 }
